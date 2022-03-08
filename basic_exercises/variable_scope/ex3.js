@@ -4,4 +4,5 @@ if (true) {
 
 console.log(myValue);
 
-// 20; true is truthy, so the if statement code block will execute
+// error; true is truthy, so the if statement code block will execute.
+// however, let variables are block scoped, and the console statement is outside of the if block
